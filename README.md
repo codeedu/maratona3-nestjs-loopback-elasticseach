@@ -4,7 +4,7 @@
 
 ## Descrição
 
-Como iniciar com projeto Nest.js com Docker
+Como trabalhar de forma simples com ElasticSearch usando Loopback Framework + Nest.js
 
 ### Para Windows 
 
@@ -14,9 +14,9 @@ Siga o guia rápido de instalação: [https://gist.github.com/argentinaluiz/6bff
 
 ## Instalação
 
-* Crie o volume do MySQL
+* Crie o volume do ElasticSearch
 ``` bash
-docker volume create iniciando-nestjs-dbdata
+docker volume create nestjs-loopback-elasticsearch
 ```
 * Execute o projeto com o Docker:
 ``` bash
